@@ -1,0 +1,99 @@
+.h1{
+    background-color: blue;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    font-size: 50px;
+}
+.navigation{
+    color: white;
+    float: right;
+    margin-top: 40px;
+}
+.nav-link{
+    color: green;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.custom-notif {
+    color: #04b05f;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    color: #484d54;
+}
+h2{
+    text-align: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+#content{
+    width: 100%;
+    height: 480px;
+}
+.aleft{
+    text-align: left;
+}
+.aright{
+    text-align: right;
+}
+.acenter{
+    text-align: center;
+}
+#content-edit{
+    width: 100%;
+    height: 540px;
+    margin-left: 0px;
+
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+#admin-form{
+    align-content: center;
+}
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #table-edit{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#custom-notif-left {
+    color: #04b05f;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 420px;
+   
+}
+.notif{
+    text-align: left;
+    margin-left: 420px;
+    color: gray;
+    font-size: 20px;
+}
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:grey;
+        color: white;
+        text-align: left;
+     }
+
+
