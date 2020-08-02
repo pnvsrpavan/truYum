@@ -11,11 +11,11 @@ select * from menu_item;
 /* 2.a. Frame SQL query to get all menu items which after launch date and is active.*/
 select * from menu_item
 	where menu_Active="Yes" and menu_date<=(current_date);
-    /* 3. Edit Menu Item (TYUC003) */
+    /* 3. Edit Menu Item  */
 	
     /* 3.a. Frame SQL query to get a menu items based on Menu Item Id */
     
-    select * from menu_items
+    select * from menu_item
 	where menu_id = "2";
 
 	/* 3.b. Frame update SQL menu_items table to update all the columns values based on Menu Item Id */
@@ -27,7 +27,7 @@ select * from menu_item
    
 
 
-/* 4. Add to Cart (TYUC004) */
+/* 4. Add to Cart */
 	
     /* 4.a. Frame insert scripts for adding data into user and cart tables.In user table create two users. Once user will not have any entries in cart, while the other will have at least 3 items in the cart. */
     
@@ -41,7 +41,7 @@ select * from menu_item
 	(2,6,2),(3,6,3);
 
 
-/* 5. View Cart (TYUC005) */
+/* 5. View Cart*/
 	
     /* 5.a. Frame SQL query to get all menu items in a particular user’s cart */
     
